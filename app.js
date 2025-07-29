@@ -14,7 +14,7 @@ const cors = require('cors');
 
 var app = express();
 
-mongoose.connect("mongodb+srv://anhquoc02:hVGc8SBtJyUCoknI@edunext.36wblzf.mongodb.net/?retryWrites=true&w=majority&appName=edunext")
+mongoose.connect("mongodb+srv://anhquoc02:SiYY4Z5ZQsCXl8PG@edunext.36wblzf.mongodb.net/?retryWrites=true&w=majority&appName=edunext")
   .then(() => console.log("Connected to DB"))
   .catch((err) => console.log(`Connection Error: ${err}`));
 
